@@ -21,13 +21,13 @@ function simpan($text){
 	fclose($myfile);
 }
 
-echo Console::blue("     Facebook Auto Unfriend\n");
+echo Console::blue("     Facebook Auto Unfriender\n");
 echo Console::blue("        Inactive Users\n\n");
 
 //INPUT
-echo "Facebook token : ";
+echo "Your Facebook Token : ";
 $fbtoken = trim(fgets(STDIN));
-echo "Year : ";
+echo "Year of Account : ";
 $year = trim(fgets(STDIN));
 echo "\n";
 
